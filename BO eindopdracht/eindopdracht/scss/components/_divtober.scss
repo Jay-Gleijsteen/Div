@@ -1,0 +1,48 @@
+@use '../abstract/colors';
+
+.divtober {
+    display: flex;
+    justify-content: start;
+    width: 45px;
+    margin: 300px;
+    height: 45px;
+    background-color: red;
+    border-radius: 100%;
+    box-shadow: 
+    -100px -150px 0 colors.$color,
+    -100px -75px 0 colors.$color, 
+    -100px -0px 0 colors.$color, 
+    -100px 75px 0 colors.$color, 
+    -150px 110px 0 colors.$color, 
+    -225px 120px 0 colors.$color, 
+    -300px 100px 0 colors.$color, 
+
+    100px 0px 0 colors.$color,
+    100px -75px 0 colors.$color,
+    100px -150px 0 colors.$color,
+    100px 75px 0 colors.$color,
+    175px -150px 0 colors.$color,
+    250px -150px 0 colors.$color,
+    325px -150px 0 colors.$color,
+    325px -90px 0 colors.$color,
+    175px 150px 0 colors.$color,
+    250px 150px 0 colors.$color,
+    325px 150px 0 colors.$color,
+    100px 150px 0 colors.$color,
+    325px 75px 0 colors.$color,
+    325px 0px 0 colors.$color,
+    250px 0px 0 colors.$color,
+
+}
+
+@keyframes colorChange {
+    0% {
+        color: white;
+    }
+    50% {
+        color: palegreen;
+    }
+    100% {
+        color: black;
+    }
+}
