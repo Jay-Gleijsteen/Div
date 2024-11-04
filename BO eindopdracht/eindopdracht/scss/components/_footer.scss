@@ -1,7 +1,6 @@
+@use "../abstract/mixin";
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include mixin.FlexCenter;
     background-color: gray;
     padding: 25px 100px;
     animation: colorChange 0.1s ease-in-out infinite alternate;
